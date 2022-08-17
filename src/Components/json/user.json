@@ -1,0 +1,51 @@
+[
+  {
+    "_id": "62fcffec1fcfc5be90bddc64",
+    "age": 29,
+    "name": "Cherry",
+    "surname": "Pennington",
+    "img": "./img/1.jpg"
+  },
+  {
+    "_id": "62fcffece3c46c841f4d0716",
+    "age": 23,
+    "name": "Hattie",
+    "surname": "Nguyen",
+    "img": "./img/2.jpg"
+  },
+  {
+    "_id": "62fcffecc8fc8af99964ed04",
+    "age": 35,
+    "name": "Delaney",
+    "surname": "Stevens",
+    "img": "./img/3.jpg"
+  },
+  {
+    "_id": "62fcffec2eba4a10bf7714b5",
+    "age": 30,
+    "name": "Frieda",
+    "surname": "Cervantes",
+    "img": "./img/4.jpg"
+  },
+  {
+    "_id": "62fcffec63b81a15280a98c3",
+    "age": 32,
+    "name": "Schneider",
+    "surname": "Glass",
+    "img": "./img/5.jpg"
+  },
+  {
+    "_id": "62fcffec4e129fdc5b3a4d8c",
+    "age": 36,
+    "name": "Summer",
+    "surname": "Burns",
+    "img": "./img/6.jpg"
+  },
+  {
+    "_id": "62fcffeca5b82c51920844a4",
+    "age": 20,
+    "name": "Velasquez",
+    "surname": "Ball",
+    "img": "./img/7.jpg"
+  }
+]

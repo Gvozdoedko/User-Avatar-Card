@@ -1,25 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+import { React, Component } from "react";
+import "./App.scss";
+import Card from "./Components/Card/card";
+import userData from './Components/json/user.json';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+export default class App extends Component {
+
+
+    render() {
+        return (
+            <div className="App">
+              { userData.map((item) => <Card key={item._id} img={item.img} name={item.name} surname={item.surname} age={item.age}></Card>) }
+            </div>
+        );
+    }
 }
-
-export default App;
